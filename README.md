@@ -48,6 +48,14 @@ df.loc[:,['Index','NoAtoms']]
 df[['Index','NoAtoms']]
 ```
 
+* convert one column of lists to multiple column of elements
+
+```python
+# there is only one column 
+df=pd.DataFrame({'col':[[2,3,4], [6,9,0], [7,2,5], [3,5,6]]}, index=list('abcd'))
+df1=df['col'].apply(pd.Series,index=['col1','col2','col3'])   # 
+```
+
 ## python tricks
 
 * chain lists
