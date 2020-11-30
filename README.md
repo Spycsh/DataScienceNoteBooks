@@ -24,6 +24,15 @@ c = np.arange(30).reshape(6,5)
 np.vstack((b,c))
 ```
 
+* add one column at assigned location
+
+```python
+a = np.array([[1,2,3],[4,5,6],[7,8,9]])
+b = np.array([[0,0,0]])
+c = np.insert(a, 0, values=b, axis=0)
+d = np.insert(a, 0, values=b, axis=1)
+```
+
 ## pandas
 
 * loc, iloc
