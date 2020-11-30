@@ -15,6 +15,15 @@ import numpy as np
 np.random.rand(4) # an array, size of 4
 numpy.random.randint(low, high=None, size=None, dtype=int) # [low, high). If high is None (the default), then results are from [0, low)
 
+* merge
+```python
+a = np.arange(16).reshape(4,4)
+b = np.arange(20).reshape(4,5)
+np.hstack((a,b))
+c = np.arange(30).reshape(6,5)
+np.vstack((b,c))
+```
+
 ## pandas
 
 * loc, iloc
