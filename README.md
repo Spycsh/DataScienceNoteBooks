@@ -61,7 +61,7 @@ df.dropna(thresh=2)
 ```
 
 * select two or more columns
-```
+```python
 df.loc[:,['Index','NoAtoms']]
 df[['Index','NoAtoms']]
 ```
@@ -75,6 +75,14 @@ df1=df['col'].apply(pd.Series,index=['col1','col2','col3'])   #
 ```
 
 ## python tricks
+
+* zip
+
+```python
+a = np.arange(3)
+b = np.arange(3)
+list(zip(a,b)) # return [(0,0),(1,1),(2,2)]
+```
 
 * chain lists
 ```python
