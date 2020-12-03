@@ -39,4 +39,4 @@ useFeature=True and useFeature=False and with some features https://www.rdkit.or
 without gridsearch
 0.813144607051296 (0.811 without some features)
 and with gridsearch
-0.8195 (0.8
+0.8195
