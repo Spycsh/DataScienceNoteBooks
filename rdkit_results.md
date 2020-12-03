@@ -17,3 +17,11 @@ rfc with grid search has an AUC of:
 
 with extension
 array([0.78786725, 0.78425996, 0.78958111, 0.7921241 , 0.79575273])
+
+
+random_state=1
+
+useFeatures=True
+
+wirh gridsearch
+0.8041718870248817
