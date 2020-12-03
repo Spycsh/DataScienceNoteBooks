@@ -40,3 +40,6 @@ without gridsearch
 0.813144607051296 (0.811 without some features)
 and with gridsearch
 0.8195
+
+k-Fold
+[0.81526082, 0.80167301, 0.8043937 , 0.80420655, 0.80748479]
