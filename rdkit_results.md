@@ -23,5 +23,7 @@ random_state=1
 
 useFeatures=True
 
+without gridsearch
+0.7975
 wirh gridsearch
 0.8041718870248817
