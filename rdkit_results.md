@@ -27,3 +27,16 @@ without gridsearch
 0.7975
 wirh gridsearch
 0.8041718870248817
+
+
+add some features https://www.rdkit.org/docs/source/rdkit.Chem.Fragments.html
+without gridsearch
+0.804
+with
+0.8069966164817003
+
+useFeature=True and useFeature=False and with some features https://www.rdkit.org/docs/source/rdkit.Chem.Fragments.html
+without gridsearch
+0.813144607051296 (0.811 without some features)
+and with gridsearch
+0.8195 (0.8
