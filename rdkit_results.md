@@ -43,3 +43,21 @@ and with gridsearch
 
 k-Fold
 [0.81526082, 0.80167301, 0.8043937 , 0.80420655, 0.80748479]
+
+
+# Final Result (RF)
+RF
+* test fingerprint(True)
+0.8147589588917745
+
+* test fingerprint(False)
+0.8161009945989475
+
+* m2v(No regularization)
+0.7969450031109704
+
+* fingerprint(true+false)
+0.830784821276411
+
+* fingerprint(true+false) + m2v(No regularization)
+0.8046742426946273
