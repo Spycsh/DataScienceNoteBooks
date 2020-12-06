@@ -48,16 +48,23 @@ k-Fold
 # Final Result (RF)
 RF
 * test fingerprint(True)
-0.8147589588917745
+0.8132317095875519
+
 
 * test fingerprint(False)
-0.8161009945989475
+0.8142116420902322
+
 
 * m2v(No regularization)
-0.
+0.7957706253011894
+
 
 * fingerprint(true+false)
-0.8294
+0.8278070347021139
+
 
 * fingerprint(true+false) + m2v(No regularization)
+0.8041007371926053
+
+
 
