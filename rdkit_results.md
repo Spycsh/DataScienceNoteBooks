@@ -54,10 +54,10 @@ RF
 0.8161009945989475
 
 * m2v(No regularization)
-0.7969450031109704
+0.
 
 * fingerprint(true+false)
-0.830784821276411
+0.8294
 
 * fingerprint(true+false) + m2v(No regularization)
-0.8046742426946273
+
