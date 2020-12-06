@@ -1,5 +1,37 @@
 # Notes
 
+## Data Science Notes from the rdkit challenge
+
+1. To keep training set independent from the testing data, split before data preprocessing (normalization, discretization and imputation)
+
+2. The minmax scaler, imputer should be fit and transform on the training set, and then only transform on the testing set.
+
+3. KFold should be exerted on the whole training set, not the training set obtained by train test(validation) split.
+
+4. AUC calculation
+
+```python
+def cal_auc(prob, labels):
+    f = list(zip(prob, labels))
+    rank = [values2 for values1, values2 in sorted(f, key=lambda x: x[0])]
+    rankList = [i + 1 for i in range(len(rank)) if rank[i] == 1]
+    posNum = 0
+    negNum = 0
+    for i in range(len(labels)):
+        if (labels[i] == 1):
+            posNum += 1
+        else:
+            negNum += 1
+    auc = (sum(rankList) - (posNum * (posNum + 1)) / 2) / (posNum * negNum)
+    return auc
+```
+
+can also use (note the sequence of the parameters)
+```python
+from sklearn.metrics import roc_auc_score
+auc = roc_auc_score(np.array(y_val), np.array(prediction[:, 1]))
+```
+
 ## Numpy
 
 numpy vectorization/ broadcast
