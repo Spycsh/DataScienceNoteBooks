@@ -1,5 +1,7 @@
 # Notes
 
+![project](https://github.com/Spycsh/DataScienceNoteBooks/tree/main/projects/modular-activity-prediction-project)
+
 ## Data Science Notes from the rdkit challenge
 
 1. To keep training set independent from the testing data, split before data preprocessing (normalization, discretization and imputation)
