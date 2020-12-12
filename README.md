@@ -1,6 +1,6 @@
 # Notes
 
-![project](https://github.com/Spycsh/DataScienceNoteBooks/tree/main/projects/modular-activity-prediction-project)
+[See the project](https://github.com/Spycsh/DataScienceNoteBooks/tree/main/projects/modular-activity-prediction-project)
 
 ## Data Science Notes from the rdkit challenge
 
