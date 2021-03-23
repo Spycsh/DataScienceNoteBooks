@@ -1,6 +1,6 @@
 # KTH Programming for Data Science Course notes, assignments, projects and revision notes
 
-[See the assignments](https://github.com/Spycsh/DataScienceNoteBooks/tree/main/projects/modular-activity-prediction-project)
+[See the assignments](https://github.com/Spycsh/DataScienceNoteBooks/tree/main/assignments)
 
 [See the exams](https://github.com/Spycsh/DataScienceNoteBooks/tree/main/exams)
 
